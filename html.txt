@@ -1,0 +1,27 @@
+!DOCTYPE html
+html
+head
+  titleSimple Addtitle
+head
+body
+  h2Add Two Numbersh2
+
+  input id=a placeholder=Enter A
+  input id=b placeholder=Enter B
+
+  button onclick=add()Addbutton
+
+  p id=resultp
+
+  script
+    function add() {
+      const a = parseFloat(document.getElementById(a).value);
+      const b = parseFloat(document.getElementById(b).value);
+
+      const sum = a + b;
+
+      document.getElementById(result).innerText = Result  + sum;
+    }
+  script
+body
+html
